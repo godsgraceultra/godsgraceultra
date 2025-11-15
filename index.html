@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOD'S GRACE | Data-Driven Insights & Creative Design</title>
+    <link rel="icon" href="images/Logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>GOD'S GRACE</h1>
+        </div>
+        <!-- Hamburger Menu Icon -->
+        <div class="menu-toggle" id="menu-toggle">
+            &#9776; 
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="hero">
+    <h1>GOD'S GRACE</h1>
+    <p>Driven by Insights, Rooted in <b>GOD’S GRACE</b> — Every Project Tells a Story Worth Seeing.</p>
+    <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+        Get in Touch
+    </button>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <h2>What is GOD'S GRACE?</h2>
+    <p>GOD’S GRACE is a data-driven brand that transforms raw information into actionable insights. Combining intelligence, creativity, and precision, we help organizations understand their data, track performance, and make smarter decisions.</p>
+    <p><i>Driven by Insights, Rooted in GOD’S GRACE — Every Project Tells a Story Worth Seeing</i></p>
+</section>
+
+<!-- What We Do Section -->
+<section class="what-we-do" id="what-we-do">
+    <div class="content-box">
+        <h2>What We Do</h2>
+        <p>
+            At <strong>GOD’S GRACE</strong>, we merge <strong>Data Science</strong> and <strong>Creative Design</strong> 
+            to help organizations make smarter decisions, build stronger brands, 
+            and communicate with clarity and impact.
+        </p>
+        <p>
+            We specialize in transforming raw data into <strong>actionable insights</strong> 
+            and ideas into <strong>beautiful visuals</strong> — combining intelligence, 
+            precision, and creativity.
+        </p>
+    </div>
+</section>
+
+<!-- Our Services Section -->
+<section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+        <div class="service-card">
+            <h3>📊 Data Science & Analysis</h3>
+            <ul>
+                <li>Turn your business data into powerful insights that drive growth</li>
+                <li>Data cleaning, visualization, and reporting</li>
+                <li>KPI dashboards for business performance</li>
+                <li>Predictive modeling and trend analysis</li>
+                <li>Automated reporting with Power BI & Python</li>
+            </ul>
+        </div>
+        <div class="service-card">
+            <h3>🎨 Graphic & Brand Design</h3>
+            <ul>
+                <li>Build a visual identity that connects with your audience</li>
+                <li>Logo & brand identity design</li>
+                <li>Marketing materials (flyers, posters, digital ads)</li>
+                <li>Social media content design</li>
+                <li>Presentation & proposal design</li>
+            </ul>
+        </div>
+        <div class="service-card">
+            <h3>📈 Interactive Dashboards</h3>
+            <ul>
+                <li>Understand your performance at a glance</li>
+                <li>Real-time analytics dashboards</li>
+                <li>Customer engagement & sales tracking</li>
+                <li>Social media and marketing dashboards</li>
+                <li>Custom designs tailored for your brand style</li>
+            </ul>
+        </div>
+        <div class="service-card">
+            <h3>💡 Data-Driven Strategy Consulting</h3>
+            <ul>
+                <li>Bridge the gap between insights and action</li>
+                <li>Business intelligence strategy</li>
+                <li>Process optimization through analytics</li>
+                <li>Data storytelling & visualization consulting</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<!-- Our Impact Section -->
+<section class="our-impact" id="impact">
+  <h2>Our Impact So Far</h2>
+  <div class="impact-cards">
+    <div class="impact-card">
+      <h3>10+</h3>
+      <p>Projects Completed</p>
+    </div>
+    <div class="impact-card">
+      <h3>5+</h3>
+      <p>Projects Perfected</p>
+    </div>
+    <div class="impact-card">
+      <h3>2+</h3>
+      <p>Years of Experience</p>
+    </div>
+    <div class="impact-card">
+      <h3>2</h3>
+      <p>Key Domains: Data & Design</p>
+    </div>
+  </div>
+</section>
+
+<!-- Trusted Brands Section -->
+<section class="trusted-brands" id="brands">
+  <h2>Trusted by Modern Brands</h2>
+  <p>We’re proud to support startups, small businesses, and growing organizations — helping them make data-backed decisions and stand out visually in competitive markets.</p>
+</section>
+
+<!-- Let's Work Together Section -->
+<section class="lets-work-together" id="collaborate">
+  <h2>Let’s Work Together</h2>
+  <p>Whether you need a powerful dashboard, data cleanup, or stunning visuals for your brand — we’re here to bring your vision to life.</p>
+  <p><i>Driven by Insights, Rooted in GOD’S GRACE — Every Project Tells a Story Worth Seeing.</i></p>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2>Get In Touch</h2>
+  <div class="contact-container">
+    <!-- Contact Form -->
+    <div class="contact-form-card">
+        <form id="contact-form" class="contact-form" action="https://formspree.io/f/xnnlavbv" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Tell us about your project..." rows="6" required></textarea>
+            <button type="submit">Send Message</button>
+            <p id="success-msg" style="display:none; color:#3B4CFF; margin-top:15px;">Message sent! Thank you.</p>
+        </form>
+    </div>
+
+    <!-- Right-side Cards -->
+    <div class="right-cards">
+      <div class="card contact-info">
+        <h3>Contact Information</h3>
+        <div class="info-item">
+          <span class="label">Email:</span>
+          <span class="value">godsgraceultra@gmail.com</span>
+        </div>
+        <div class="info-item">
+          <span class="label">Phone:</span>
+          <span class="value">+2349168896611</span>
+        </div>
+      </div>
+      <div class="card office-hours">
+        <h3>Office Hours</h3>
+        <p>Monday - Friday: 9:00 AM - 6:00 PM WAT</p>
+        <p>We typically respond to inquiries within 24 hours.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h2>GOD'S GRACE</h2>
+      <p>Driven by Insights, Rooted in GOD’S GRACE — Every Project Tells a Story Worth Seeing.</p>
+    </div>
+    <div class="footer-columns">
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <p>Email: <a href="mailto:godsgraceultra@gmail.com">godsgraceultra@gmail.com</a></p>
+        <p>Phone: <a href="tel:+2349168896611">+2349168896611</a></p>
+        <div class="footer-social">
+          <a href="https://instagram.com/godsgraceultra" target="_blank">Instagram</a>
+          <a href="https://twitter.com/godsgraceultra" target="_blank">Twitter</a>
+          <a href="https://github.com/godsgraceultra" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/company/godsgraceultra/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 GOD’S GRACE. All rights reserved. Privacy Policy • Terms of Service</p>
+  </div>
+</footer>
+
+<script>
+const menuToggle = document.getElementById('menu-toggle');
+const navLinks = document.getElementById('nav-links');
+
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+});
+</script>
+
+
+<script>
+  const form = document.getElementById('contact-form');
+  const successMsg = document.getElementById('success-msg');
+
+  form.addEventListener('submit', function(event){
+    event.preventDefault();
+    const data = new FormData(form);
+
+    fetch(form.action, {
+      method: 'POST',
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      if(response.ok){
+        successMsg.style.display = 'block';
+        form.reset();
+      } else {
+        alert('Oops! There was a problem submitting your form.');
+      }
+    }).catch(error => {
+      alert('Oops! There was a problem submitting your form.');
+    });
+  });
+</script>
